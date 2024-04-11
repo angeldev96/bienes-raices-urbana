@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Hero from './components/Hero';
 import NewestDeals from './components/NewestDeals';
