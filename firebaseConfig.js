@@ -27,4 +27,4 @@ initializeApp(firebaseConfig)
 // Inicializamos Firebase Auth
 const auth = getAuth()
 
-export { auth }  
+export { auth }
