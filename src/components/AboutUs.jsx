@@ -7,52 +7,45 @@ const AboutUs = () => {
         <div className="mt-10 space-y-4 ">
           <div className="w-48 flex flex-col items-center bg-white text-center  drop-shadow-2xl p-5 rounded-md">
             <MdHomeRepairService size={"1.8rem"} />
-            <h1 className="text-xl font-bold">Good Services</h1>
+            <h1 className="text-xl font-bold">Servicios de Calidad</h1>
             <p className="text-xs">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-              harum eius quaerat?
+              Ofrecemos servicios de alta calidad para satisfacer tus necesidades inmobiliarias. Nuestro equipo está comprometido con brindar la mejor experiencia a nuestros clientes.
             </p>
           </div>
           <div className="w-48 flex flex-col items-center bg-white text-center  drop-shadow-2xl p-5 rounded-md">
             <MdHomeRepairService size={"1.8rem"} />
-            <h1 className="text-xl font-bold">Buy Dream Your House</h1>
+            <h1 className="text-xl font-bold">Encuentra la Casa de tus Sueños</h1>
             <p className="text-xs">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-              harum eius quaerat?
+              Te ayudamos a encontrar la casa ideal que se ajuste a tus gustos y necesidades. Nuestro objetivo es hacer realidad el sueño de tener un hogar perfecto para ti.
             </p>
           </div>
         </div>
         <div className="space-y-4">
           <div className="w-48 flex flex-col items-center bg-white text-center  drop-shadow-2xl p-5 rounded-md">
             <MdHomeRepairService size={"1.8rem"} />
-            <h1 className="text-xl font-bold">Sell Your House Easily</h1>
+            <h1 className="text-xl font-bold">Vende tu Casa Fácilmente</h1>
             <p className="text-xs">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-              harum eius quaerat?
+              Simplificamos el proceso de venta de tu casa para que puedas obtener el mejor valor en el mercado. Confía en nosotros para una transacción exitosa.
             </p>
           </div>
           <div className="w-48 flex flex-col items-center bg-white text-center  drop-shadow-2xl p-5 rounded-md">
             <MdHomeRepairService size={"1.8rem"} />
-            <h1 className="text-xl font-bold">Good Services</h1>
+            <h1 className="text-xl font-bold">Servicios de Calidad</h1>
             <p className="text-xs">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-              harum eius quaerat?
+              Nos esforzamos por ofrecer servicios excepcionales que se ajusten a tus necesidades inmobiliarias. Tu satisfacción es nuestra prioridad.
             </p>
           </div>
         </div>
       </div>
       <div className="w-11/12 md:w-1/2 space-y-5">
         <h1 className="text-6xl font-bold">
-          Know <span className="text-yellow-400">About us</span>{" "}
+          Conoce <span className="text-yellow-400">Quiénes Somos</span>{" "}
         </h1>
         <p className="text-sm text-gray-400">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-          consequuntur iusto voluptas dolorem possimus, atque eum omnis dolores
-          cumque autem saepe molestias sapiente ipsa facere suscipit adipisci,
-          ab quasi repudiandae doloremque doloribus? Delectus, dolorem quaerat.
+          Somos un equipo dedicado a hacer que tus sueños inmobiliarios se hagan realidad. Nuestra misión es proporcionarte un servicio excepcional y guiarte en cada paso del proceso. ¡Confía en nosotros para encontrar tu hogar perfecto!
         </p>
         <button className="px-5 py-2 rounded-md bg-yellow-400">
-          Read more
+          Leer más
         </button>
       </div>
     </div>
