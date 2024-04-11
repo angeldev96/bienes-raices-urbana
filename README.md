@@ -27,3 +27,6 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
 ## Licencia
 
 Este proyecto está bajo la licencia MIT.
+
+
+
