@@ -1,4 +1,3 @@
-import React from "react";
 import { MdHomeRepairService } from "react-icons/md";
 const AboutUs = () => {
   return (

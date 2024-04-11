@@ -1,4 +1,3 @@
-import React from 'react'
 import {BsSuitHeart} from 'react-icons/bs'
 import {IoBedOutline,IoLocationOutline} from 'react-icons/io5'
 import {GiBathtub,GiHomeGarage} from 'react-icons/gi'

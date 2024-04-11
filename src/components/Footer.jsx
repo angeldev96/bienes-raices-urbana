@@ -1,4 +1,3 @@
-import React from "react";
 
 import { FiTwitter, FiFacebook } from 'react-icons/fi'
 import { AiOutlineInstagram, AiOutlineYoutube, AiFillGithub } from 'react-icons/ai'
