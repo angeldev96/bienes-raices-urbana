@@ -10,7 +10,7 @@ const Hero = () => {
           <li>Tendencias</li>
           <li>Acerca de</li>
         </ul>
-        <button className="bg-yellow-400 px-5 py-2 rounded-xl text-xs md:text-base">Contacto</button>
+        <button className="bg-cyan-900 px-5 py-2 rounded-xl text-xs md:text-base text-gray-300">Contacto</button>
       </nav>
       <div className="h-[500px] relative">
         <img
@@ -23,18 +23,18 @@ const Hero = () => {
         <div className=" bg-white w-11/12 xl:w-4/5 m-auto grid grid-cols-2 lg:flex justify-between items-center p-5 drop-shadow-2xl md:space-x-5 md:rounded-md">
         <div className=" flex flex-col space-y-2 ">
           <label htmlFor="location">Ubicación</label>
-          <input type="text" placeholder="EE. UU." className="outline-0 text-xs"/>
+          <input type="text" placeholder="Honduras" className="outline-0 text-xs"/>
         </div>
         <div className="flex flex-col space-y-2">
           <label htmlFor="property">Tipo de propiedad</label>
-          <input type="text" placeholder="propiedad" className="outline-0 text-xs"/>
+          <input type="text" placeholder="Terrenos" className="outline-0 text-xs"/>
         </div>
         <div className="flex flex-col space-y-2">
           <label htmlFor="price">Precio máximo</label>
-          <input type="text" placeholder="$8,544" className="outline-0 text-xs"/>
+          <input type="text" placeholder="HNL" className="outline-0 text-xs"/>
         </div>
         <div>
-          <button className="bg-yellow-400 px-5 py-2 mt-5 md:mt-0 md:rounded-full">Buscar</button>
+          <button className="bg-cyan-900 px-5 py-2 mt-5 md:mt-0 md:rounded-full text-gray-300">Buscar</button>
         </div>
         </div>
        

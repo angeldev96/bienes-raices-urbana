@@ -16,7 +16,7 @@ import house9 from '../assets/house14.jpg'
 const NewestDeals = () => {
   return (
     <div className='py-10'>
-        <p className='px-4 py-1 text-xs bg-yellow-100 w-16 rounded-lg'>NUEVO</p>
+        <p className='px-4 py-1 text-xs bg-cyan-500 w-16 rounded-lg text-white'>NUEVO</p>
         <h1 className='text-4xl font-bold'>NUEVAS OFERTAS</h1>
         <div className="deals grid 2xl:grid-cols-5 gap-8 xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 py-10">
             <div className="deal h-[350px] bg-white drop-shadow-2xl rounded-xl">
@@ -315,7 +315,7 @@ const NewestDeals = () => {
             </div>
         </div>
         <div className='w-full flex justify-center py-5'>
-        <button className='bg-yellow-200 px-5 py-2 rounded-md text-xl flex items-center space-x-2'><span>Ver Más</span> <AiOutlineDoubleRight/></button>
+        <button className='bg-cyan-900 text-gray-100 px-5 py-2 rounded-md text-xl flex items-center space-x-2'><span>Ver Más</span> <AiOutlineDoubleRight/></button>
         </div>
     </div>
   )

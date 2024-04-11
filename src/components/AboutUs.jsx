@@ -39,12 +39,12 @@ const AboutUs = () => {
       </div>
       <div className="w-11/12 md:w-1/2 space-y-5">
         <h1 className="text-6xl font-bold">
-          Conoce <span className="text-yellow-400">Quiénes Somos</span>{" "}
+          Conoce <span className="text-cyan-600">Quiénes Somos</span>{" "}
         </h1>
         <p className="text-sm text-gray-400">
           Somos un equipo dedicado a hacer que tus sueños inmobiliarios se hagan realidad. Nuestra misión es proporcionarte un servicio excepcional y guiarte en cada paso del proceso. ¡Confía en nosotros para encontrar tu hogar perfecto!
         </p>
-        <button className="px-5 py-2 rounded-md bg-yellow-400">
+        <button className="px-5 py-2 rounded-md bg-cyan-900 text-gray-100">
           Leer más
         </button>
       </div>
