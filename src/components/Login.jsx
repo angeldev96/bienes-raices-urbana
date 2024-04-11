@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { initializeApp } from "firebase/app";
 import { getAuth, signInWithEmailAndPassword, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 
@@ -12,6 +13,8 @@ const firebaseConfig = {
   measurementId: import.meta.env.VITE_MEASUREMENT_ID
 };
 
+
+
 const app = initializeApp(firebaseConfig);
 
 const auth = getAuth(app);
@@ -20,12 +23,15 @@ const auth = getAuth(app);
 export default function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const navigate = useNavigate();
+
 
   const handleEmailLogin = async (e) => {
     e.preventDefault();
     try {
       await signInWithEmailAndPassword(auth, email, password);
-      // Redirige al usuario a la página de inicio o realiza otras acciones después del inicio de sesión exitoso
+      navigate('/'); // Redirige al usuario a la página de inicio
+
     } catch (error) {
       console.error("Error al iniciar sesión con email y contraseña:", error);
       // Maneja el error de inicio de sesión
@@ -36,7 +42,7 @@ export default function Login() {
     try {
       const provider = new GoogleAuthProvider();
       await signInWithPopup(auth, provider);
-      // Redirige al usuario a la página de inicio o realiza otras acciones después del inicio de sesión exitoso
+      navigate('/'); // Redirige al usuario a la página de inicio
     } catch (error) {
       console.error("Error al iniciar sesión con Google:", error);
       // Maneja el error de inicio de sesión
