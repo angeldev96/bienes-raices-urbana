@@ -26,7 +26,12 @@ const Footer = () => {
 
           </div>
           <p className="text-sm text-gray-400">Copyright © 2024 Bienes Raices Urbana, Todos los Derechos Reservados</p>
-          <p className="text-sm text-gray-400 p-1">Aplicacion Web Hecha por Angel Valladares</p>
+          <p className="text-xs text-gray-400 p-1">
+    Aplicación web hecha por 
+    <a href="https://github.com/angeldev96" target="_blank" rel="noopener noreferrer" className="text-blue-500 m-1">
+         Angel Valladares
+    </a>
+</p>
 
         </div>
       </footer>
