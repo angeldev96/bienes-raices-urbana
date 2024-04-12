@@ -5,6 +5,7 @@ import AboutUs from './components/AboutUs';
 import BestDeals from './components/BestDeals';
 import Footer from './components/Footer';
 import Login from './components/Login';
+import PropertyRegistry from './components/PropertyRegistry';
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
           } />
           <Route path="/login" element={<Login/>} />
           <Route path="*" element={<Navigate to="/" />} />
+          <Route path="/registro-propiedad" element={<PropertyRegistry />} />
         </Routes>
       </div>
       <Footer />
