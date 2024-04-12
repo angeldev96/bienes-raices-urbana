@@ -6,6 +6,7 @@ import BestDeals from './components/BestDeals';
 import Footer from './components/Footer';
 import Login from './components/Login';
 import PropertyRegistry from './components/PropertyRegistry';
+import ProtectedRoute from './components/ProtectedRoute';
 
 export default function App() {
   return (
@@ -20,10 +21,14 @@ export default function App() {
               <BestDeals />
             </>
           } />
-          <Route path="/login" element={<Login/>} />
+          <Route path="/login" element={<Login />} />
           <Route path="*" element={<Navigate to="/" />} />
-          <Route path="/registro-propiedad" element={<PropertyRegistry />} />
-        </Routes>
+          <Route path="/registro-propiedad" element={
+            <ProtectedRoute>
+              <PropertyRegistry />
+            </ProtectedRoute>
+          } />        
+          </Routes>
       </div>
       <Footer />
     </Router>
