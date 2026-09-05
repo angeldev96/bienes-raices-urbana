@@ -30,6 +30,8 @@
     "esbuild": "0.28.1"
   },
   "resolutions": {
-    "esbuild": "0.28.1"
+    "esbuild": "0.28.1",
+    "browserslist": "^4.28.7",
+    "nanoid": "^3.3.18"
   }
 }
